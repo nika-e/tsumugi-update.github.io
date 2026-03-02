@@ -1,0 +1,490 @@
+/* EXTRA */
+
+:root {
+  --original-color: #E04237;
+  --original-color-2: #D53F34;
+  --original-color-3: #E5AC1B;
+
+  --main-color: #f6b537;
+  --secondary-color: #65be70;     /*   rgba(101, 190, 112, 0.15); */
+  --tetriary-color: #ee2a8f;
+}
+
+
+/* template-color */
+
+.handle-preloader{
+	background: var(--original-color);
+}
+
+.preloader-close{
+	color: var(--original-color);
+}
+
+.main-header .header-lower .logo-box:before{
+	background: var(--original-color);
+}
+
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li:hover > a{
+  /* color: var(--original-color); */ color: var(--main-color);
+}
+
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > .megamenu{
+	background: var(--original-color);
+}
+
+.main-menu .navigation > li > ul > li > ul{
+	background: var(--original-color);
+}
+
+.main-header .nav-right li.search-toggler:hover,
+.main-header .nav-right li.nav-btn:hover{
+  background: var(--original-color);
+  border-color: var(--original-color);
+}
+
+.theme-btn-one{
+	/* background: var(--original-color); */ background: var(--main-color);
+}
+
+.donate-content .donate-option .donate-list :checked+label{
+	background: var(--original-color);
+}
+
+.donate-content .payment-option .payment-list :checked+label {
+  color: var(--original-color);
+}
+
+.donate-content .form-inner .form-group input:focus{
+	border-color: var(--original-color) !important;
+}
+
+.donate-content .form-inner .form-group .custom-control.material-checkbox .material-control-input:checked ~ .material-control-indicator{
+	border: 1px solid var(--original-color);
+	background: var(--original-color);
+}
+
+.xs-sidebar-group .content-inner .form-inner .form-group input:focus,
+.xs-sidebar-group .content-inner .form-inner .form-group textarea:focus{
+  border-color: var(--original-color) !important;
+}
+
+.banner-carousel .content-box .special-text{
+	color: var(--original-color-3);
+}
+
+.banner-section .shape-1{
+	/* background: var(--original-color); */ background: var(--secondary-color);
+}
+
+.sec-title .sub-title{
+	/* color: var(--original-color-2); */ color: var(--secondary-color);
+}
+
+.feature-block-one .inner-box h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.progress-box .bar-inner{
+	background: var(--original-color);
+}
+
+.cause-block-one .inner-box .image-box .image{
+	background: var(--original-color);
+}
+
+.cause-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.featured-causes .single-item .inner-box .theme-btn-one:hover{
+  color: var(--original-color-2) !important;
+}
+
+.nav-style-one .owl-nav button:hover{
+  /* background: var(--original-color-2); */ background: var(--secondary-color);
+  /* border-color: var(--original-color-2); */ border-color: var(--secondary-color);;
+}
+
+.service-block-one .inner-box .icon-box{
+	color: var(--original-color-2);
+}
+
+.service-block-one .inner-box h3 a:hover{
+  color: var(--original-color-2);
+}
+
+/* .project-block-one .inner-box .image-box{
+	background: var(--original-color);
+} */
+
+.team-block-one .inner-box .image-box .image{
+	/* background: var(--original-color); */
+}
+
+.team-block-one .inner-box .lower-content .social-links li a:hover{
+  background: var(--original-color);
+  border-color: var(--original-color);
+}
+
+.team-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.testimonial-section{
+	/* background: var(--original-color); */ background-color: var(--secondary-color);
+}
+
+/* .clients-section{
+	background: var(--original-color-3);
+} */
+
+.news-block-one .inner-box .image-box{
+	background: var(--original-color-3);
+}
+
+.news-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.theme-btn-two:hover{
+	background: var(--original-color-2);
+	border-color: var(--original-color-2);
+}
+
+.news-block-one .inner-box .lower-content .lower-box li a:hover{
+  color: var(--original-color-2);
+}
+
+.news-block-one .inner-box .lower-content .lower-box li i{
+	color: var(--original-color-2);
+}
+
+.footer-top .social-links li a:hover{
+  background: var(--original-color-2);
+}
+
+.main-footer .widget-section a:hover{
+  color: var(--original-color-2);
+}
+
+.main-footer .widget-section .contact-widget .info-list li i{
+	color: var(--original-color-2);
+}
+
+.footer-bottom a:hover{
+  color: var(--original-color-2);
+}
+
+.header-top .top-inner .top-left .social-links li a:hover{
+  color: var(--original-color-2);
+}
+
+.header-top .top-inner .info li a:hover{
+  color: var(--original-color-2);
+}
+
+.header-top .top-inner .info li i{
+	color: var(--original-color-2);
+}
+
+.header-style-two.main-header .nav-right li.search-toggler:hover{
+  color: var(--original-color-2);
+}
+
+.header-style-two.main-header .nav-right li.cart-box a:hover{
+  color: var(--original-color-2);
+}
+
+.banner-carousel .owl-nav button:hover{
+	background: var(--original-color-2);
+}
+
+.service-block-two .inner-box .icon-box{
+	color: var(--original-color-2);
+}
+
+.service-block-two .inner-box h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.accordion-box .block.active-block{
+  background: var(--original-color-2);
+}
+
+.cta-section .inner-box h3{
+	color: var(--original-color-3);
+}
+
+.events-block-one .inner-box .content-box .date h2{
+	color: var(--original-color-2);
+}
+
+.events-block-one .inner-box .content-box h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.events-block-one .inner-box .content-box .lower-box li i{
+	color: var(--original-color-2);
+}
+
+.event-section .nav-style-one .owl-nav button:hover{
+  background: var(--original-color-2);
+}
+
+.news-block-two .inner-box .image-box{
+	background: var(--original-color-2);
+}
+
+.news-block-two .inner-box .lower-content h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.news-block-two .inner-box .lower-content .post-info li i{
+	color: var(--original-color-2);
+}
+
+.news-block-two .inner-box .lower-content .post-info li a:hover{
+  color: var(--original-color-2);
+}
+
+.sidebar-post .news-block-two .inner-box .lower-content .post-date{
+	background: var(--original-color-2);
+}
+
+.cta-style-two{
+	background: var(--original-color-2);
+}
+
+.cta-style-two .inner-box .theme-btn-one:hover{
+  color: var(--original-color-2) !important;
+}
+
+.header-style-three .header-lower .nav-right li.search-toggler:hover{
+  color: var(--original-color-2);
+}
+
+.banner-style-three .banner-carousel .theme-btn-one:hover{
+  color: var(--original-color-2) !important;
+}
+
+.list-style-one li:before{
+	color: var(--original-color-2);
+}
+
+.funfact-section.alternat-2 .funfact-block-one:first-child .inner-box .count-outer{
+	color: var(--original-color-2);
+}
+
+.cta-section .theme-btn-one:hover{
+  color: var(--original-color-2) !important;
+}
+
+.faq-style-two .accordion-box .block .acc-btn.active .icon-outer{
+	color: var(--original-color-2);
+}
+
+.page-title .content-box .bread-crumb li a:hover{
+  color: var(--original-color-2);
+}
+
+.team-block-two .inner-box .image-box{
+	background: var(--original-color-2);
+}
+
+.team-block-two .inner-box .lower-content h3 a:hover{
+  color: var(--original-color-2);
+}
+
+.team-block-two .inner-box .lower-content .social-links li a:hover{
+  background: var(--original-color-2);
+  border-color: var(--original-color-2);
+}
+
+.team-details-content .content-box .designation{
+	color: var(--original-color-2);
+}
+
+.team-details-content .content-box .info-list li a:hover{
+  color: var(--original-color-2);
+}
+
+.team-details-content .content-box .social-links li a:hover{
+  background: var(--original-color-2);
+  border-color: var(--original-color-2);
+}
+
+.event-details .sidebar-side .single-widget-box h3{
+	background: var(--original-color-2);
+}
+
+.event-details .sidebar-side .single-widget-box .info-list li a:hover{
+  color: var(--original-color-2);
+}
+
+.event-details .sidebar-side .single-widget-box .info-list li:last-child a{
+  color: var(--original-color-2);
+}
+
+.faq-form-section .form-inner .form-group input:focus,
+.faq-form-section .form-inner .form-group textarea:focus{
+  border-color: var(--original-color-2) !important;
+}
+
+.gallery-page-section .filters .filter-tabs li.active,
+.gallery-page-section .filters .filter-tabs li:hover{
+  color: var(--original-color-2);
+}
+
+.error-section .inner-box h1{
+	color: var(--original-color-2);
+}
+
+.cause-details-content .content-four .form-group input:focus,
+.cause-details-content .content-four .form-group textarea:focus{
+	border-color: var(--original-color-2) !important;
+}
+
+.default-sidebar .sidebar-widget .form-group input:focus{
+  border-color: var(--original-color-2) !important;
+}
+
+.default-sidebar .category-widget .category-list li a:hover{
+  color: var(--original-color-2);
+}
+
+.default-sidebar .category-widget .category-list li a:before{
+	color: var(--original-color-2);
+}
+
+.default-sidebar .donate-widget .inner-box .theme-btn-one:hover{
+  color: var(--original-color-2) !important;
+}
+
+.default-sidebar .tags-widget .tags-list li a:hover{
+  background: var(--original-color-2);
+}
+
+.shop-sidebar .search-widget form .form-group input:focus + button,
+.shop-sidebar .search-widget form .form-group button:hover{
+	color: var(--original-color-2);
+}
+
+.shop-sidebar .category-widget .category-list li a:hover{
+	color: var(--original-color-2);
+}
+
+.shop-sidebar .category-widget .category-list li a:hover:before{
+  color: var(--original-color-2);
+}
+
+.range-slider .ui-slider .ui-slider-range{
+	background: var(--original-color-2);
+}
+
+.range-slider .ui-state-default,
+.range-slider .ui-widget-content .ui-state-default{
+	background: var(--original-color-2);
+}
+
+.shop-block-one .inner-box .image-box .info li a:hover{
+  background: var(--original-color-2);
+}
+
+.shop-block-one .inner-box .lower-content h4 a:hover{
+  color: var(--original-color-2);
+}
+
+.pagination li a:hover,
+.pagination li a.current{
+	background: var(--original-color-2);
+	border-color: var(--original-color-2);
+}
+
+.shop-details-content .content-box .rating-box .review a:hover{
+  color: var(--original-color-2);
+}
+
+.shop-details-content .addto-cart-box .like-box a:hover{
+  background: var(--original-color-2);
+	border-color: var(--original-color-2);
+}
+
+.shop-details-content .other-option li a:hover{
+  color: var(--original-color-2);
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns li.active-btn{
+	color: var(--original-color-2);
+}
+
+.default-form input:focus,
+.default-form textarea:focus{
+	border-color: var(--original-color-2) !important;
+}
+
+.cart-section .cart-table tbody tr .prod-column .column-box .remove-btn:hover{
+  background: var(--original-color-2);
+  border-color: var(--original-color-2);
+}
+
+.cart-section .othre-content .coupon-box input:focus{
+	border-color: var(--original-color-2) !important;
+}
+
+.cart-section .cart-total .total-cart-box .list li:last-child span{
+  color: var(--original-color-2);
+}
+
+.checkout-section .upper-box .single-box a{
+  color: var(--original-color-2);
+}
+
+.checkout-section .billing-form .form-group input[type='text']:focus,
+.checkout-section .billing-form .form-group input[type='email']:focus{
+	border-color: var(--original-color-2) !important;
+}
+
+.checkout-section .additional-info .note-book textarea:focus{
+  border-color: var(--original-color-2) !important;
+}
+
+.checkout-section .order-info .order-list li.order-total span{
+	color: var(--original-color-2);
+}
+
+.checkout-section .payment-info .payment-inner .custom-controls-stacked .description a:hover{
+	color: var(--original-color-2);
+}
+
+.blog-sidebar .post-inner .post .post-thumb{
+	background: var(--original-color-2);
+}
+
+.blog-sidebar .post-widget .post h5 a:hover{
+  color: var(--original-color-2);
+}
+
+.page-title-two .post-info li a:hover{
+  color: var(--original-color-2);
+}
+
+.blog-details-content .post-tags .tags li a:hover{
+  color: var(--original-color-2);
+}
+
+.blog-details-content .author-box .designation{
+	color: var(--original-color-2);
+}
+
+.blog-details-content .comments-form-area form .form-group input:focus,
+.blog-details-content .comments-form-area form .form-group textarea:focus{
+  border-color: var(--original-color-2) !important;
+}
+
+.contact-section .form-inner form .form-group input:focus,
+.contact-section .form-inner form .form-group textarea:focus{
+	border-color: var(--original-color-2) !important;
+}
