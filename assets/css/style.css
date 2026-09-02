@@ -8376,3 +8376,14 @@ div#mCSB_1_container{
 .team-block-one .inner-box .lower-content .inner {
   padding-top: 130px;
 }
+
+
+
+
+html {
+  scroll-behavior: smooth
+}
+
+.contact-section {
+  background: #f8f8f8;
+}
