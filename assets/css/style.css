@@ -8387,3 +8387,67 @@ html {
 .contact-section {
   background: #f8f8f8;
 }
+
+.sec-title h2.mw-500 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.supporters-all {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.supporters-all .supporters-1 {
+ display: flex;
+  flex-direction: column;
+  border: 2px solid #f5b537;
+  border-radius: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.supporters-all .supporters-1 img {
+  width: 5rem;
+  margin: 1rem auto 0 auto;
+}
+
+.supporters-all .supporters-1 .jp-font-sm-1 {
+  font-family: "M PLUS Rounded 1c", serif !important;
+  font-weight: 500 !important;
+  font-size: 1.5rem;
+  color: #f5b537;
+  margin: 1.5rem;
+  color: black;
+}
+
+.jp-font-sm-2 {
+  font-family: "M PLUS Rounded 1c", serif !important;
+  font-weight: 500 !important;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 500px) {
+  .supporters-all {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+
+  .supporters-all .supporters-1 {
+    width: 49%;
+    margin: 1rem 0px;
+  }
+
+  .supporters-all .supporters-1 img {
+    width: 3.5rem;
+    margin: 1rem auto 0 auto;
+  }
+
+  .jp-font-sm-2 {
+    margin-top: 2.5rem;
+  }
+}
