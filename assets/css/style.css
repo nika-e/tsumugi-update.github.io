@@ -8389,7 +8389,7 @@ html {
 }
 
 .sec-title h2.mw-500 {
-  max-width: 460px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -8442,7 +8442,7 @@ html {
   .supporters-all {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 500px;
+    max-width: 460px;
     margin: 0 auto;
     margin-top: 1.5rem;
   }
